@@ -1,6 +1,6 @@
 # 👟 Shoe Store Website
 
-[![Laravel](https://img.shields.io/badge/Laravel-10.x-red.svg)](https://laravel.com/)
+[![Laravel](https://img.shields.io/badge/Laravel-8.x-red.svg)](https://laravel.com/)
 [![PHP](https://img.shields.io/badge/PHP-%3E=8.1-blue.svg)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/Database-MySQL-blue.svg)](https://www.mysql.com/)
 [![Blade](https://img.shields.io/badge/View-Blade-orange.svg)](https://laravel.com/docs/blade)
