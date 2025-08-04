@@ -1,66 +1,139 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 👟 Shoe Store Website
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel](https://img.shields.io/badge/Laravel-10.x-red.svg)](https://laravel.com/)
+[![PHP](https://img.shields.io/badge/PHP-%3E=8.1-blue.svg)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/Database-MySQL-blue.svg)](https://www.mysql.com/)
+[![Blade](https://img.shields.io/badge/View-Blade-orange.svg)](https://laravel.com/docs/blade)
+[![PayPal](https://img.shields.io/badge/Payments-PayPal-green.svg)](https://paypal.com/)
 
-## About Laravel
+A modern, full-featured online shoe store built with **Laravel**, **Blade**, and **MySQL**, featuring role-based access for Admins and Users. Includes modules for product management, orders, stock, wishlist, and secure payments via **PayPal**.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ⚙️ Tech Stack
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Backend**: Laravel 10+
+- **Frontend**: Blade (Laravel's templating engine)
+- **Database**: MySQL
+- **Authentication**: Laravel Auth
+- **Payment Gateway**: PayPal (sandbox/live)
+- **Authorization**: Role-based (Admin & User)
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 👥 User Roles & Features
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 🧑‍💼 Admin
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- ✅ Manage Products (Create, Edit, Delete)
+- ✅ Manage Stock Levels
+- ✅ Manage Orders
+- ✅ Manage Users
+- ✅ Admin Dashboard (sales stats, orders, etc.)
 
-## Laravel Sponsors
+### 🛍️ User
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- 🔐 Register & Login
+- 👟 Browse Products
+- 🛒 Add to Cart & Checkout
+- ❤️ Add to Wishlist
+- 💳 Pay with PayPal
+- 📦 Track Orders
+- 🙍 Update Profile
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 📦 Core Modules
 
-## Contributing
+| Module        | Description                                                               |
+|---------------|---------------------------------------------------------------------------|
+| **Auth**      | Login, Register, Password Reset                                           |
+| **Product**   | Manage and display shoes with categories, prices, and images              |
+| **Stock**     | Admin control of product inventory levels                                 |
+| **Order**     | Place and manage customer orders                                          |
+| **Cart**      | Add, remove, or update cart items                                         |
+| **Wishlist**  | Save favorite products for later                                          |
+| **Payment**   | Checkout and pay via PayPal                                               |
+| **User**      | Admin user management, user profile management                            |
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🚀 Installation & Setup
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Requirements
 
-## Security Vulnerabilities
+- PHP >= 8.1
+- Composer
+- MySQL
+- Node.js & NPM (for assets)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Steps
 
-## License
+```bash
+# Clone the repo
+git clone git@github.com:HanJie-0523/online-shoe-store.git
+cd shoe-store
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Install dependencies
+composer install
+
+# Environment setup
+cp .env.example .env
+php artisan key:generate
+
+# Setup your database in .env then run:
+php artisan migrate --seed
+
+# (Optional) Install frontend dependencies
+npm install && npm run dev
+
+# Serve the application
+php artisan serve
+```
+
+## 💳 PayPal Setup
+
+To enable PayPal payments, you need to configure the following environment variables in your `.env` file:
+
+```env
+PAYPAL_CLIENT_ID=your-paypal-client-id
+PAYPAL_CLIENT_SECRET=your-paypal-secret
+PAYPAL_MODE=sandbox # Use 'live' for production
+```
+
+Make sure your PayPal developer account has sandbox credentials.  
+You can get them from: [https://developer.paypal.com](https://developer.paypal.com)
+
+---
+
+## 🔐 Default Admin Credentials
+
+After running the database seeder, you can log in as an admin using the following credentials:
+
+```bash
+Email: admin@example.com  
+Password: admin
+```
+
+> ⚠️ **Tip:** Change the admin credentials immediately after deploying to production.
+
+---
+
+## 🚧 Future Improvements
+
+Here are some planned enhancements to take the project further:
+
+- [ ] Stripe payment gateway integration  
+- [ ] Product reviews and star ratings  
+- [ ] Promo codes and discount system  
+- [ ] Responsive mobile-friendly design  
+- [ ] RESTful API for mobile app integration  
+- [ ] Multilingual support (EN / MY / CN)  
+
+Feel free to contribute or suggest features!
+
+---
+
+## 📄 License
+
+This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
