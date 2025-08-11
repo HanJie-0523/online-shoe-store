@@ -13,7 +13,7 @@ A modern, full-featured online shoe store built with **Laravel**, **Blade**, and
 ## ⚙️ Tech Stack
 
 - **Backend**: Laravel 8+
-- **Frontend**: Blade (Laravel's templating engine)
+- **Frontend**: Blade (Laravel's templating engine), Bootstrap
 - **Database**: MySQL
 - **Authentication**: Laravel Auth
 - **Payment Gateway**: PayPal (sandbox/live)
